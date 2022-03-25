@@ -130,3 +130,6 @@ dmypy.json
 
 
 PaDEL-Descriptor
+
+acetylcholinesterase_model.pkl
+./bioactivity-prediction-app/acetylcholinesterase_model.pkl
