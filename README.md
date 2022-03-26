@@ -1,4 +1,6 @@
-# bioinformatics-drug-discovery
+# 🧬 🧪 Alzheimer-drug-discovery
+
+## 📜 Definitions
 
 a drug is biological or chemical entity that can modulate the course of a **desease state** by interacting with its **target protein**
 
@@ -10,15 +12,17 @@ a drug is biological or chemical entity that can modulate the course of a **dese
 * Exploring structures and functions of biomolecules (DNA, protein, lipid and carbohydrate).
 * explore network biology and letabolic pathways.
 ---
+
+## ✨ Demo
 ## 🧑‍💻 Usage
 
-* Prerequisites
+* **Prerequisites**
 
     Make sure you have:
     * `python 3.X` installed
     * `conda environment` by installing [anaconda](https://www.anaconda.com/products/individual) or [miniconda](https://conda.io/miniconda.html) (recommended).
 
-* Serializing the model
+* **Serializing the model**
 
     The size of the serialized model was relatively too large so you have to generate it by yourself.
     
@@ -26,7 +30,7 @@ a drug is biological or chemical entity that can modulate the course of a **dese
     
     You will remark that a new file, `bioactivity_prediction_model.ipynb`, appears.
 
-* Launching application
+* **Launching application**
 
     Under `bioactivity-prediction-app` directory, open the `bash terminal` and execute the following commands.
 
@@ -51,6 +55,12 @@ a drug is biological or chemical entity that can modulate the course of a **dese
    
 Enjoy interacting with your application on your favorite web browser 🎉
 
+## 🧑‍🔬 Domain knowledge
+
+## ⁉️ Frequently Asked Questions (FAQ)
+🙋
+👉
+## 📑 References
 ## ©️ Credits
 
-Huge thank to mr. [Chanin Nantasenamat](https://github.com/dataprofessor) for making this project possible through his clear explanation whether at the algorithmic level or at the domain-knowledge level 🙏
+Huge thanks to mr. [Chanin Nantasenamat](https://github.com/dataprofessor) for making this project possible through his clear explanation whether at the algorithmic level or at the domain-knowledge level 🙏
