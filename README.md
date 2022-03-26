@@ -14,6 +14,9 @@ a drug is biological or chemical entity that can modulate the course of a **dese
 ---
 
 ## ✨ Demo
+
+## 🏗 Project's structure
+
 ## 🧑‍💻 Usage
 
 * **Prerequisites**
@@ -61,6 +64,7 @@ Enjoy interacting with your application on your favorite web browser 🎉
 🙋
 👉
 ## 📑 References
+## 📝 License
 ## ©️ Credits
 
-Huge thanks to mr. [Chanin Nantasenamat](https://github.com/dataprofessor) for making this project possible through his clear explanation whether at the algorithmic level or at the domain-knowledge level 🙏
+Huge thanks to Mr. [Chanin Nantasenamat](https://github.com/dataprofessor) for making this project possible through his clear explanation whether at the algorithmic level or at the domain-knowledge level 🙏
