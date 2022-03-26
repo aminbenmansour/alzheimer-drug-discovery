@@ -24,7 +24,6 @@ def desc_calc():
     output, error = process.communicate()
     os.remove('molecule.smi')
 
-
 # File download
 def filedownload(df):
     csv = df.to_csv(index=False)
@@ -32,3 +31,15 @@ def filedownload(df):
     href = f'<a href="data:file/csv;base64,{b64}" download="prediction.csv">Download Predictions</a>'
     return href
 
+# Model building
+def build_model(input_data):
+    # Reads in saved regression model
+    load_model = pickle.load(open('acetylcholinesterase_model.pkl', 'rb'))
+    # Apply model to make predictions
+    prediction = load_model.predict(input_data)
+    st.header('**Prediction output**')
+    prediction_output = pd.Series(prediction, name='pIC50')
+    molecule_name = pd.Series(load_data[1], name='molecule_name')
+    df = pd.concat([molecule_name, prediction_output], axis=1)
+    st.write(df)
+    st.markdown(filedownload(df), unsafe_allow_html=True)
