@@ -49,3 +49,9 @@ This app allows you to predict the bioactivity towards inhibting the `Acetylchol
 ---
 """)
 
+# Sidebar
+with st.sidebar.header('Upload your CSV data'):
+    uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
+    st.sidebar.markdown("""
+[Example input file](https://raw.githubusercontent.com/aminbenmansour/bioinformatics-computational-drug-discovery/main/bioactivity-prediction-app/example_acetylcholinesterase.txt)
+""")
