@@ -1,20 +1,10 @@
-# Logo image
 import streamlit as st
 from PIL import Image
-
-image = Image.open('logo.png')
-
-st.image(image, use_column_width=True)
-
-# Page title
-st.markdown("""
-# Bioactivity Prediction App (Acetylcholinesterase)
-This app allows you to predict the bioactivity towards inhibting the `Acetylcholinesterase` enzyme. `Acetylcholinesterase` is a drug target for Alzheimer's disease.
-**Credits**
-- App built in `Python` + `Streamlit`.
-- Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
----
-""")
+import pandas as pd
+import subprocess
+import os
+import base64
+import pickle
 
 # Molecular descriptor calculator
 def desc_calc():
@@ -43,3 +33,19 @@ def build_model(input_data):
     df = pd.concat([molecule_name, prediction_output], axis=1)
     st.write(df)
     st.markdown(filedownload(df), unsafe_allow_html=True)
+
+# Logo image
+image = Image.open('logo.png')
+
+st.image(image, use_column_width=True)
+
+# Page title
+st.markdown("""
+# Bioactivity Prediction App (Acetylcholinesterase)
+This app allows you to predict the bioactivity towards inhibting the `Acetylcholinesterase` enzyme. `Acetylcholinesterase` is a drug target for Alzheimer's disease.
+**Credits**
+- App built in `Python` + `Streamlit`.
+- Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
+---
+""")
+
