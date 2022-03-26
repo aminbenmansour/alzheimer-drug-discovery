@@ -55,3 +55,32 @@ with st.sidebar.header('Upload your CSV data'):
     st.sidebar.markdown("""
 [Example input file](https://raw.githubusercontent.com/aminbenmansour/bioinformatics-computational-drug-discovery/main/bioactivity-prediction-app/example_acetylcholinesterase.txt)
 """)
+
+
+if st.sidebar.button('Predict'):
+    load_data = pd.read_table(uploaded_file, sep=' ', header=None)
+    load_data.to_csv('molecule.smi', sep = '\t', header = False, index = False)
+
+    st.header('**Original input data**')
+    st.write(load_data)
+
+    with st.spinner("Calculating descriptors..."):
+        desc_calc()
+
+    # Read in calculated descriptors and display the dataframe
+    st.header('**Calculated molecular descriptors**')
+    desc = pd.read_csv('descriptors_output.csv')
+    st.write(desc)
+    st.write(desc.shape)
+
+    # Read descriptor list used in previously built model
+    # st.header('**Subset of descriptors from previously built models**')
+    Xlist = list(pd.read_csv('descriptor_list.csv').columns)
+    desc_subset = desc[Xlist]
+    # st.write(desc_subset)
+    # st.write(desc_subset.shape)
+
+    # Apply trained model to make prediction on query compounds
+    build_model(desc_subset)
+else:
+    st.info('Upload input data in the sidebar to start!')
