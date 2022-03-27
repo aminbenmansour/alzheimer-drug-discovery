@@ -61,10 +61,11 @@ Enjoy interacting with your application on your favorite web browser 🎉
 ## 🧑‍🔬 Domain knowledge
 
 ## ⁉️ Frequently Asked Questions (FAQ)
-🙋
-👉
+### **🙋 why are we calculating pubchem fingerprints even after calculating thelipinski descriptors ? what is the difference ?**
+👉 the **lipinski descriptors** will provide us with a set of a simple molecular descriptors that will provide us with the drug-like (oral drug) properties of the molecule (rule of five). in the other hand, thanks to the **pubchem fingerprints**, each molecule will be described by the unique building blocks, this will allow us to create a unique properties of the drug and that is the essence of *drug discovery* and *drug design*. the connectivity of the blocks are giving rise to the unique structure of the molecule and also the unique molecular properties. **we have to find a way to rearrange the blocks in such a way that the molecule provides the most potency toward the target protein while also being safe and not so toxic**.
 ## 📑 References
 ## 📝 License
+[MIT License](./LICENSE)
 ## ©️ Credits
 
 Huge thanks to Mr. [Chanin Nantasenamat](https://github.com/dataprofessor) for making this project possible through his clear explanation whether at the algorithmic level or at the domain-knowledge level 🙏
