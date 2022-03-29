@@ -16,6 +16,12 @@ a drug is biological or chemical entity that can modulate the course of a **dese
 ## ✨ Demo
 
 ## 🏗 Project's structure
+in this subsection we will emphasise the role each directory plays in thos repository.
+* `notebooks` contains jupyter notebooks for all the hooks a *professional* model should pass through, from data gathering, EDA, approving or denying hypothesis, model training and models comparison.
+* `data` contains data processed at each step.
+* `figures` contains saved figures that could be useful for scientists writing their report.
+* `toolkits` contains required files to run PaDEL descriptors
+* `bioactivity-prediction-app` here resides the webapp, it summarizes all efforts done in other directories.
 
 ## 🧑‍💻 Usage
 
