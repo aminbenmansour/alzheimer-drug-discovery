@@ -65,6 +65,7 @@ in this subsection we will emphasise the role each directory plays in thos repos
 Enjoy interacting with your application on your favorite web browser 🎉
 
 ## 🧑‍🔬 Domain knowledge
+building domain knowledge is the most fragile part of every data science project. **It took me hours of research to get the fundamentals of *bioinformatics***. I would rather write a wiki instead but you can deep dive into the [references](https://github.com/aminbenmansour/alzheimer-drug-discovery#-references--research-papers) below 👇.
 ## 🏦 Database
 [ChEMBL](https://www.ebi.ac.uk/chembl/) is a manually curated database of bioactive molecules with drug-like properties. It brings together chemical, bioactivity and genomic data to aid the translation of genomic information into effective new drugs.
 ## ⁉️ Frequently Asked Questions (FAQ)
