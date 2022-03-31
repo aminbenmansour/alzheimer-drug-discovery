@@ -131,7 +131,9 @@ dmypy.json
 
 PaDEL-Descriptor
 
-acetylcholinesterase_model.pkl
-./bioactivity-prediction-app/acetylcholinesterase_model.pkl
 
-./bioactivity-prediction-app/descriptors_output.csv
+bioactivity-prediction-app/acetylcholinesterase_model.pkl
+
+bioactivity-prediction-app/descriptors_output.csv
+
+bioactivity-prediction-app/alzheimer-drug-discovery
