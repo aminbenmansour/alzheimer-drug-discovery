@@ -2,3 +2,4 @@ streamlit
 pandas
 scikit-learn
 base58
+Pillow
