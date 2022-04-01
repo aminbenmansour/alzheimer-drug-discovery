@@ -1,4 +1,20 @@
 # 🧬 🧪 Alzheimer-drug-discovery
+
+<p align="center">
+    <a href="#" alt="python">
+        <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
+    <a href="#" alt="scikit-learn">
+        <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>
+    <a href="#" alt="pandas">
+        <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
+    <a href="#" alt="numpy">
+        <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" /></a>
+    <a href="#" alt="scipy">
+        <img src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white" /></a>
+    <a href="#" alt="manjaro">
+        <img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=Manjaro&logoColor=white" /></a>
+</p>
+
 > Hearing the stories of people suffering from alzheimer is always heartbreaking. Our goal is to make machine learning beneficial for everybody.
 ## 📜 Definitions
 
@@ -14,7 +30,7 @@ a drug is biological or chemical entity that can modulate the course of a **dese
 ---
 
 ## ✨ Demo
-
+https://user-images.githubusercontent.com/50111205/161323907-46799e7e-c3af-4a5b-a688-17e6409d4e10.mp4
 ## 🏗 Project's structure
 in this subsection we will emphasise the role each directory plays in thos repository.
 * `notebooks` contains jupyter notebooks for all the hooks a *professional* model should pass through, from data gathering, EDA, approving or denying hypothesis, model training and models comparison.
@@ -50,7 +66,7 @@ in this subsection we will emphasise the role each directory plays in thos repos
 
     2. activate the virtual environment
     ```
-    source  alzheimer-drug-discovery/bin/activate 
+    source alzheimer-drug-discovery/bin/activate 
     ```
     3. install the projects' dependencies
     ```
